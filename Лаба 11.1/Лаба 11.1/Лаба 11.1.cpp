@@ -154,23 +154,24 @@
 //        i++;
 //    }
 //
-//    printf("После: %s", s);
-//}
+    printf("После: %s", s);
+}
 
 
 
-////11.6.2
-//char toupperAll(char c) {
-//    if (c >= 'a' && c <= 'z')
-//        return c - 32;
-//    else if (c >= 'а' && c <= 'я')
-//        return c - 32;
-//    else if (c == 'ё')
-//        return 'Ё';
-//    else
-//        return c;
-//}
-//
+//11.6.2
+char toupperAll(char c) {
+    if (c >= 'a' && c <= 'z')
+        return c - 32;
+    else if (c >= 'а' && c <= 'я')
+        return c - 32;
+    else if (c == 'ё')
+        return 'Ё';
+    else
+
+}
+
+ 
 //void main() {
 //    SetConsoleCP(1251);
 //    SetConsoleOutputCP(1251);
