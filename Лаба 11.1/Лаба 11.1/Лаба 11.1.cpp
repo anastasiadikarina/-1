@@ -154,8 +154,8 @@
 //        i++;
 //    }
 //
-//    printf("После: %s", s);
-//}
+    printf("После: %s", s);
+}
 
 
 
@@ -168,11 +168,10 @@ char toupperAll(char c) {
     else if (c == 'ё')
         return 'Ё';
     else
-        return c;
-}
- 
- printf("Hello world")
 
+}
+
+ 
 //void main() {
 //    SetConsoleCP(1251);
 //    SetConsoleOutputCP(1251);
